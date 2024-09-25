@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    
+    box-shadow: -6px 15px 49px 15px rgba(0, 0, 0, 0.2); /* Reduced the shadow opacity for a softer effect */
+  }
+  
+  .room {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+  
+  .heading {
+  position: absolute;
+
+  color: white; /* White text for contrast */
+  font-size: 28px;
+  top: -30px; /* Adjusted to move the heading above the input */
+  width: 100%;
+  text-align: center;
+  border-radius: 10px; /* Slightly rounded corners */
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); Add a subtle shadow for depth */
+}
+
+  .signout {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
